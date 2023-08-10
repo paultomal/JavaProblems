@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Vehicle sedan = new Sedan();
-        Vehicle car = new Car();
+        Sedan sedan = new Sedan();
         sedan.startEngine();
-        car.startEngine();
     }
 }
