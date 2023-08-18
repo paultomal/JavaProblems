@@ -1,2 +1,7 @@
-package CovariantReturnType;public class Main {
+package CovariantReturnType;
+
+public class Main {
+    public static void main(String[] args) {
+
+    }
 }
