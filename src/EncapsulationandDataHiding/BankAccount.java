@@ -24,8 +24,6 @@ public class BankAccount {
                 balance -= amount;
                 System.out.println("Withdrawal Successful.");
             }else System.out.println("Invalid ");
-
-
     }
     public void balance(int enteredPin){
         if (enteredPin == pin) {
@@ -33,7 +31,6 @@ public class BankAccount {
         } else {
             System.out.println("Incorrect PIN. Cannot retrieve balance.");
         }
-
     }
 
 }
