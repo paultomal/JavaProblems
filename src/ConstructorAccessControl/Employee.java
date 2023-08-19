@@ -10,9 +10,9 @@ public class Employee {
         this.name = name;
         this.salary = salary;
     }
-    public static Employee createEmployee(String name, Integer salary){
+    public static Employee createEmployee(String name, Integer salary) throws CustomException{
         if(name == null || salary < 0) {
-            throw new IllegalArgumentException("Invalid name or salary");
+            throw new CustomException("Invalid name or salary");
         }
         else return new Employee(name,salary);
     }
